@@ -30,36 +30,33 @@ function drawChart() {
   dataTable.addRows([
     [ '\0', 'Now', new Date(today.getFullYear(), today.getMonth(), today.getDate()), new Date(today.getFullYear(), today.getMonth(), today.getDate()) ],
 
-    [ 'CONFS', 'C Pool Introduction', sdate(25, 09, 2017), edate(01, 10, 2017) ],
-    [ 'CONFS', 'Assistance', sdate(19, 10, 2017), edate(24, 10, 2017) ],
-    [ 'CONFS', 'End of the swimming pool statement', sdate(06, 11, 2017), edate(12, 11, 2017) ],
+    [ 'Elementary Programming in C', 'Pushswap', sdate(06, 11, 2017), edate(26, 11, 2017) ],
+    [ 'Elementary Programming in C', 'BSQ', sdate(27, 11, 2017), edate(17, 12, 2017) ],
 
-    [ 'DAYS', 'Day 01', sdate(02, 10, 2017), edate(02, 10, 2017) ],
-    [ 'DAYS', 'Day 02', sdate(03, 10, 2017), edate(03, 10, 2017) ],
-    [ 'DAYS', 'Day 03', sdate(04, 10, 2017), edate(04, 10, 2017) ],
-    [ 'DAYS', 'Day 04', sdate(05, 10, 2017), edate(05, 10, 2017) ],
-    [ 'DAYS', 'Day 05', sdate(06, 10, 2017), edate(06, 10, 2017) ],
-    [ 'DAYS', 'Day 06', sdate(09, 10, 2017), edate(09, 10, 2017) ],
-    [ 'DAYS', 'Day 07', sdate(10, 10, 2017), edate(10, 10, 2017) ],
-    [ 'DAYS', 'Day 08', sdate(11, 10, 2017), edate(11, 10, 2017) ],
-    [ 'DAYS', 'Day 09', sdate(12, 10, 2017), edate(12, 10, 2017) ],
-    [ 'DAYS', 'Day 10', sdate(13, 10, 2017), edate(13, 10, 2017) ],
-    [ 'DAYS', 'Day 11', sdate(16, 10, 2017), edate(16, 10, 2017) ],
-    [ 'DAYS', 'Day 12', sdate(17, 10, 2017), edate(17, 10, 2017) ],
-    [ 'DAYS', 'Day 13', sdate(18, 10, 2017), edate(18, 10, 2017) ],
+    [ 'Unix System Programming', 'my_printf', sdate(06, 11, 2017), edate(19, 11, 2017) ],
+    [ 'Unix System Programming', 'my_ls', sdate(20, 11, 2017), edate(03, 12, 2017) ],
+    [ 'Unix System Programming', 'my_sokoban', sdate(04, 12, 2017), edate(17, 12, 2017) ],
 
-    [ 'RUSHS', 'Rush 1', sdate(07, 10, 2017), edate(08, 10, 2017) ],
-    [ 'RUSHS', 'Rush 2', sdate(14, 10, 2017), edate(15, 10, 2017) ],
+    [ 'Mathematics', '101pong', sdate(06, 11, 2017), edate(19, 11, 2017) ],
+    [ 'Mathematics', '102architect', sdate(20, 11, 2017), edate(03, 12, 2017) ],
+    [ 'Mathematics', '103cipher', sdate(04, 12, 2017), edate(17, 12, 2017) ],
+    [ 'Mathematics', '104intersection', sdate(18, 12, 2017), edate(07, 01, 2018) ],
+    [ 'Mathematics', '105torus', sdate(08, 01, 2018), edate(21, 01, 2018) ],
 
-    [ 'PROJECTS', 'Fir Tree', sdate(04, 10, 2017), edate(08, 10, 2017) ],
-    [ 'PROJECTS', 'match nmatch', sdate(09, 10, 2017), edate(15, 10, 2017) ],
-    [ 'PROJECTS', 'InfinAdd', sdate(23, 10, 2017), edate(23, 10, 2017) ],
-    [ 'PROJECTS', 'EvalExpr', sdate(25, 10, 2017), edate(29, 10, 2017) ],
-    [ 'PROJECTS', 'Bistro-matic', sdate(23, 10, 2017), edate(05, 11, 2017) ],
+    [ 'French Writing Skills', 'Mail pro', sdate(06, 11, 2017), edate(26, 11, 2017) ],
+    [ 'French Writing Skills', 'Lettre argumentée', sdate(04, 12, 2017), edate(07, 01, 2018) ],
+    [ 'French Writing Skills', 'RUSH - Les Seigneurs des mots', sdate(14, 12, 2017), edate(21, 12, 2017) ],
 
-    [ 'OPTIONAL', 'Lib Workshop', sdate(19, 10, 2017), edate(24, 10, 2017) ],
+    [ 'C Graphical Programming', 'MyScreenSaver', sdate(13, 11, 2017), edate(10, 12, 2017) ],
+    [ 'C Graphical Programming', 'MyHunter', sdate(13, 11, 2017), edate(10, 12, 2017) ],
+    [ 'C Graphical Programming', 'MyRadar', sdate(11, 12, 2017), edate(14, 01, 2018) ],
+    [ 'C Graphical Programming', 'MyRunner', sdate(11, 12, 2017), edate(14, 01, 2018) ],
 
-    [ 'STUMPERS', 'Final Stumper', sdate(28, 10, 2017), edate(28, 10, 2017) ]
+    [ 'GetNextLine', 'GetNextLine', sdate(01, 01, 2018), edate(14, 01, 2018) ],
+
+    [ 'Shell Programming', 'Minishell 1', sdate(01, 01, 2018), edate(21, 01, 2018) ],
+
+    [ 'Introduction to OS', 'Rush', sdate(21, 01, 2018), edate(27, 01, 2018) ],
   ]);
 
 
