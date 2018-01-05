@@ -30,33 +30,41 @@ function drawChart() {
   dataTable.addRows([
     [ '\0', 'Now', new Date(today.getFullYear(), today.getMonth(), today.getDate()), new Date(today.getFullYear(), today.getMonth(), today.getDate()) ],
 
-    [ 'Elementary Programming in C', 'Pushswap', sdate(06, 11, 2017), edate(26, 11, 2017) ],
-    [ 'Elementary Programming in C', 'BSQ', sdate(27, 11, 2017), edate(17, 12, 2017) ],
+      [ 'Shell Programming', 'MiniShell 2', sdate(19, 03, 2018), edate(15, 04, 2018) ],
+      [ 'Shell Programming', '42Sh', sdate(16, 04, 2018), edate(27, 05, 2018) ],
 
-    [ 'Unix System Programming', 'my_printf', sdate(06, 11, 2017), edate(19, 11, 2017) ],
-    [ 'Unix System Programming', 'my_ls', sdate(20, 11, 2017), edate(03, 12, 2017) ],
-    [ 'Unix System Programming', 'my_sokoban', sdate(04, 12, 2017), edate(17, 12, 2017) ],
+      [ 'Elementary Programming in C (Part 1)', 'Matchstick', sdate(29, 01, 2018), edate(11, 02, 2018) ],
+      [ 'Elementary Programming in C (Part 1)', 'Corewar', sdate(05, 02, 2018), edate(11, 03, 2018) ],
 
-    [ 'Mathematics', '101pong', sdate(06, 11, 2017), edate(19, 11, 2017) ],
-    [ 'Mathematics', '102architect', sdate(20, 11, 2017), edate(03, 12, 2017) ],
-    [ 'Mathematics', '103cipher', sdate(04, 12, 2017), edate(17, 12, 2017) ],
-    [ 'Mathematics', '104intersection', sdate(18, 12, 2017), edate(07, 01, 2018) ],
-    [ 'Mathematics', '105torus', sdate(08, 01, 2018), edate(21, 01, 2018) ],
+      [ 'Elementary Programming in C (Part 2)', 'Lem-in', sdate(12, 03, 2018), edate(08, 04, 2018) ],
+      [ 'Elementary Programming in C (Part 2)', 'Need4Stek', sdate(09, 04, 2018), edate(20, 05, 2018) ],
 
-    [ 'French Writing Skills', 'Mail pro', sdate(06, 11, 2017), edate(26, 11, 2017) ],
-    [ 'French Writing Skills', 'Lettre argumentée', sdate(04, 12, 2017), edate(07, 01, 2018) ],
-    [ 'French Writing Skills', 'RUSH - Les Seigneurs des mots', sdate(14, 12, 2017), edate(21, 12, 2017) ],
+      [ 'Unix System Programming', 'Navy', sdate(05, 02, 2018), edate(25, 02, 2018) ],
+      [ 'Unix System Programming', 'Tetris', sdate(26, 02, 2018), edate(18, 03, 2018) ],
 
-    [ 'C Graphical Programming', 'MyScreenSaver', sdate(13, 11, 2017), edate(10, 12, 2017) ],
-    [ 'C Graphical Programming', 'MyHunter', sdate(13, 11, 2017), edate(10, 12, 2017) ],
-    [ 'C Graphical Programming', 'MyRadar', sdate(11, 12, 2017), edate(14, 01, 2018) ],
-    [ 'C Graphical Programming', 'MyRunner', sdate(11, 12, 2017), edate(14, 01, 2018) ],
+      [ 'Mathematics', '106bombyx', sdate(05, 02, 2018), edate(18, 02, 2018) ],
+      [ 'Mathematics', '107transfer', sdate(19, 02, 2018), edate(04, 03, 2018) ],
+      [ 'Mathematics', '108trigo', sdate(05, 03, 2018), edate(18, 03, 2018) ],
+      [ 'Mathematics', '109titration', sdate(19, 03, 2018), edate(01, 04, 2018) ],
+      [ 'Mathematics', '110borwein', sdate(02, 04, 2018), edate(15, 04, 2018) ],
 
-    [ 'GetNextLine', 'GetNextLine', sdate(01, 01, 2018), edate(14, 01, 2018) ],
+      [ 'French Writing Skills', "Mode d'emploi", sdate(29, 01, 2018), edate(18, 02, 2018) ],
+      [ 'French Writing Skills', 'Faire préciser', sdate(26, 02, 2018), edate(11, 03, 2018) ],
+      [ 'French Writing Skills', 'Lettre de vente', sdate(19, 03, 2018), edate(15, 04, 2018) ],
 
-    [ 'Shell Programming', 'Minishell 1', sdate(01, 01, 2018), edate(21, 01, 2018) ],
+      [ 'C Graphical Programming', 'MyWorld', sdate(29, 01, 2018), edate(04, 03, 2018) ],
+      [ 'C Graphical Programming', 'MyCook', sdate(29, 01, 2018), edate(04, 03, 2018) ],
+      [ 'C Graphical Programming', 'MyRPG', sdate(05, 03, 2018), edate(13, 05, 2018) ],
 
-    [ 'Introduction to OS', 'Rush', sdate(21, 01, 2018), edate(27, 01, 2018) ],
+      [ 'Introduction to Sys Admin.', 'My Web', sdate(26, 02, 2018), edate(26, 03, 2018) ],
+
+      [ 'Introduction to AI', "Dante's star", sdate(09, 04, 2018), edate(13, 05, 2018) ],
+      [ 'Introduction to AI', 'Tournament', sdate(14, 05, 2018), edate(20, 05, 2018) ],
+
+      [ 'Introduction to Networks', 'Rush', sdate(26, 02, 2018), edate(11, 03, 2018) ],
+
+      [ 'Introduction to Web Dev', 'EPyTodo', sdate(26, 03, 2018), edate(09, 04, 2018) ],
+
   ]);
 
 
