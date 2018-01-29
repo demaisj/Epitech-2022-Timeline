@@ -30,9 +30,6 @@ function drawChart() {
   dataTable.addRows([
     [ '\0', 'Now', new Date(today.getFullYear(), today.getMonth(), today.getDate()), new Date(today.getFullYear(), today.getMonth(), today.getDate()) ],
 
-      [ 'Elementary Programming in C (Part 1)', 'Matchstick', sdate(29, 01, 2018), edate(11, 02, 2018) ],
-      [ 'Elementary Programming in C (Part 1)', 'Corewar', sdate(05, 02, 2018), edate(11, 03, 2018) ],
-
       [ 'C Graphical Programming', 'MyWorld', sdate(29, 01, 2018), edate(04, 03, 2018) ],
       [ 'C Graphical Programming', 'MyCook', sdate(29, 01, 2018), edate(04, 03, 2018) ],
       [ 'C Graphical Programming', 'MyRPG', sdate(05, 03, 2018), edate(13, 05, 2018) ],
@@ -40,6 +37,9 @@ function drawChart() {
       [ 'French Writing Skills', "Mode d'emploi", sdate(29, 01, 2018), edate(18, 02, 2018) ],
       [ 'French Writing Skills', 'Faire préciser', sdate(26, 02, 2018), edate(11, 03, 2018) ],
       [ 'French Writing Skills', 'Lettre de vente', sdate(19, 03, 2018), edate(15, 04, 2018) ],
+
+      [ 'Elementary Programming in C (Part 1)', 'Matchstick', sdate(05, 02, 2018), edate(18, 02, 2018) ],
+      [ 'Elementary Programming in C (Part 1)', 'Corewar', sdate(12, 02, 2018), edate(18, 03, 2018) ],
 
       [ 'Unix System Programming', 'Navy', sdate(05, 02, 2018), edate(25, 02, 2018) ],
       [ 'Unix System Programming', 'Tetris', sdate(26, 02, 2018), edate(18, 03, 2018) ],
