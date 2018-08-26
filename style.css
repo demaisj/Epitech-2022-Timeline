@@ -78,3 +78,23 @@ hr{
 #changelog-container .commit.expanded .commit-date:before{
   display:none;
 }
+
+#timeline-container rect {
+  transition: height .5s ease-out;
+}
+ html, body {
+  height: 100%;
+  margin: 0;
+}
+ section.timeline {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+ section.timeline #timeline-container {
+  flex-grow: 1;
+  height: auto;
+}
+ section.timeline h2 {
+  margin-top: 0;
+}

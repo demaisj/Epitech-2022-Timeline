@@ -7,12 +7,12 @@ function date(day, month, year)
   return new Date(year, month - 1, day);
 }
 
-function sdate(day, month, year)
+function start(day, month, year)
 {
   return date(day, month, year);
 }
 
-function edate(day, month, year)
+function end(day, month, year)
 {
   var d = date(day, month, year);
   d.setDate(d.getDate() + 1);
@@ -27,43 +27,11 @@ function drawChart() {
   dataTable.addColumn({ type: 'string', id: 'Project' });
   dataTable.addColumn({ type: 'date', id: 'Start' });
   dataTable.addColumn({ type: 'date', id: 'End' });
+  var now = new Date(today.getFullYear(), today.getMonth(), today.getDate());
   dataTable.addRows([
-    [ '\0', 'Now', new Date(today.getFullYear(), today.getMonth(), today.getDate()), new Date(today.getFullYear(), today.getMonth(), today.getDate()) ],
+    [ '\0', 'Now', now, now ],
 
-      [ 'Elementary Programming in C (Part 1)', 'Matchstick', sdate(29, 01, 2018), edate(11, 02, 2018) ],
-      [ 'Elementary Programming in C (Part 1)', 'Corewar', sdate(05, 02, 2018), edate(11, 03, 2018) ],
-
-      [ 'C Graphical Programming', 'MyWorld', sdate(29, 01, 2018), edate(04, 03, 2018) ],
-      [ 'C Graphical Programming', 'MyCook', sdate(29, 01, 2018), edate(04, 03, 2018) ],
-      [ 'C Graphical Programming', 'MyRPG', sdate(05, 03, 2018), edate(13, 05, 2018) ],
-
-      [ 'French Writing Skills', "Mode d'emploi", sdate(29, 01, 2018), edate(18, 02, 2018) ],
-      [ 'French Writing Skills', 'Faire préciser', sdate(26, 02, 2018), edate(11, 03, 2018) ],
-      [ 'French Writing Skills', 'Lettre de vente', sdate(19, 03, 2018), edate(15, 04, 2018) ],
-
-      [ 'Unix System Programming', 'Navy', sdate(05, 02, 2018), edate(25, 02, 2018) ],
-      [ 'Unix System Programming', 'Tetris', sdate(26, 02, 2018), edate(18, 03, 2018) ],
-
-      [ 'Mathematics', '106bombyx', sdate(05, 02, 2018), edate(18, 02, 2018) ],
-      [ 'Mathematics', '107transfer', sdate(19, 02, 2018), edate(04, 03, 2018) ],
-      [ 'Mathematics', '108trigo', sdate(05, 03, 2018), edate(18, 03, 2018) ],
-      [ 'Mathematics', '109titration', sdate(19, 03, 2018), edate(01, 04, 2018) ],
-      [ 'Mathematics', '110borwein', sdate(02, 04, 2018), edate(15, 04, 2018) ],
-
-      [ 'Introduction to Sys Admin.', 'My Web', sdate(26, 02, 2018), edate(26, 03, 2018) ],
-
-      [ 'Introduction to Networks', 'Rush', sdate(26, 02, 2018), edate(11, 03, 2018) ],
-
-      [ 'Elementary Programming in C (Part 2)', 'Lem-in', sdate(12, 03, 2018), edate(08, 04, 2018) ],
-      [ 'Elementary Programming in C (Part 2)', 'Need4Stek', sdate(09, 04, 2018), edate(20, 05, 2018) ],
-
-      [ 'Shell Programming', 'MiniShell 2', sdate(19, 03, 2018), edate(15, 04, 2018) ],
-      [ 'Shell Programming', '42Sh', sdate(16, 04, 2018), edate(27, 05, 2018) ],
-
-      [ 'Introduction to Web Dev', 'EPyTodo', sdate(26, 03, 2018), edate(09, 04, 2018) ],
-
-      [ 'Introduction to AI', "Dante's star", sdate(09, 04, 2018), edate(13, 05, 2018) ],
-      [ 'Introduction to AI', 'Tournament', sdate(14, 05, 2018), edate(20, 05, 2018) ],
+    [ 'Internship', 'Internship', start(4, 7, 2018), end(30, 12, 2018) ],
 
   ]);
 
@@ -168,4 +136,7 @@ $(document).ready(function(){
   })
 
   set_theme(window.localStorage.getItem("dark") == "true" ? true : false);
+  setTimeout(function(){
+    $('body').addClass('ready');
+  }, 500);
 });
