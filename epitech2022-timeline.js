@@ -40,6 +40,7 @@ function drawChart() {
     ['FR - Écrits professionnels', "Rédiger un bilan d'expérience", start(4, 3, 2019), end(17, 3, 2019)],
     ['Computer Numerical Analysis - Trading', 'Bollinger Bands', start(28, 1, 2019), end(3, 3, 2019)],
     ['Computer Numerical Analysis - Trading', 'Trade', start(4, 3, 2019), end(2, 6, 2019)],
+    ['Web Security', 'SHODAN', start(11, 2, 2019), end(24, 2, 2019)],
     ['x86-64 Assembly', 'MiniLibC', start(11, 2, 2019), end(10, 3, 2019)],
     ['Mathematics', '201yams', start(11, 2, 2019), end(24, 2, 2019)],
     ['Mathematics', '202unsold', start(25, 2, 2019), end(10, 3, 2019)],
@@ -59,6 +60,7 @@ function drawChart() {
     ['Network Programming', 'ARP Spoofing', start(6, 5, 2019), end(26, 5, 2019)],
     ['Concurrent Programming', 'The Plazza', start(1, 4, 2019), end(28, 4, 2019)],
     ['Project Week', 'Project', start(6, 5, 2019), end(10, 5, 2019)],
+    ['Binary Security', 'NOOB', start(6, 5, 2019), end(19, 5, 2019)],
     ['Year-End-Project - Indie Studio', 'Indie Studio', start(6, 5, 2019), end(16, 6, 2019)],
     ['Year-End-Project - Zappy', 'Zappy', start(13, 5, 2019), end(23, 6, 2019)]
   ]);
