@@ -28,39 +28,64 @@ function drawChart() {
   dataTable.addRows([
     ['\0', 'Now', now, now],
 
-    ['C++ Seminar', 'C++ Seminar', start(3, 1, 2019), end(27, 1, 2019)],
-    ['Shell Scripting', 'ShellScript Project', start(21, 1, 2019), end(27, 1, 2019)],
-    ['Unix Programming - Memory', 'malloc', start(21, 1, 2019), end(3, 2, 2019)],
-    ['Unix Programming - Memory', 'nm/objdump', start(4, 2, 2019), end(24, 2, 2019)],
-    ['Object-Oriented Programming', 'NanoTekSpice', start(21, 1, 2019), end(24, 2, 2019)],
-    ['Object-Oriented Programming', 'Arcade', start(25, 2, 2019), end(31, 3, 2019)],
-    ['Network and System Administration', 'Systems and Networks Administration project', start(28, 1, 2019), end(10, 2, 2019)],
-    ['FR - Écrits professionnels', 'Mission délicate: recadrer un collègue', start(28, 1, 2019), end(10, 2, 2019)],
-    ['FR - Écrits professionnels', 'Diaporama pour décrocher 1 million de dollars', start(18, 2, 2019), end(3, 3, 2019)],
-    ['FR - Écrits professionnels', "Rédiger un bilan d'expérience", start(4, 3, 2019), end(17, 3, 2019)],
-    ['Computer Numerical Analysis - Trading', 'Bollinger Bands', start(28, 1, 2019), end(3, 3, 2019)],
-    ['Computer Numerical Analysis - Trading', 'Trade', start(4, 3, 2019), end(2, 6, 2019)],
-    ['x86-64 Assembly', 'MiniLibC', start(11, 2, 2019), end(10, 3, 2019)],
-    ['Mathematics', '201yams', start(11, 2, 2019), end(24, 2, 2019)],
-    ['Mathematics', '202unsold', start(25, 2, 2019), end(10, 3, 2019)],
-    ['Mathematics', '203hotline', start(11, 3, 2019), end(24, 3, 2019)],
-    ['Mathematics', '204ducks', start(25, 3, 2019), end(7, 4, 2019)],
-    ['Mathematics', '205IQ', start(8, 4, 2019), end(21, 4, 2019)],
-    ['Mathematics', '206neutrinos', start(22, 4, 2019), end(5, 5, 2019)],
-    ['Mathematics', '207demography', start(29, 4, 2019), end(12, 5, 2019)],
-    ['Mathematics', '208dowels', start(6, 5, 2019), end(19, 5, 2019)],
-    ['Mathematics', '209poll', start(13, 5, 2019), end(26, 5, 2019)],
-    ['Functional programming', 'deBruijn', start(18, 2, 2019), end(3, 3, 2019)],
-    ['Functional programming', 'Image Compressor', start(25, 3, 2019), end(28, 4, 2019)],
-    ['Unix Programming - Instrumentation', 'strace', start(25, 2, 2019), end(10, 3, 2019)],
-    ['Unix Programming - Instrumentation', 'ftrace', start(25, 3, 2019), end(21, 4, 2019)],
-    ['Network Programming', 'Local Temp', start(25, 3, 2019), end(7, 4, 2019)],
-    ['Network Programming', 'FTP Server', start(8, 4, 2019), end(28, 4, 2019)],
-    ['Network Programming', 'ARP Spoofing', start(6, 5, 2019), end(26, 5, 2019)],
-    ['Concurrent Programming', 'The Plazza', start(1, 4, 2019), end(28, 4, 2019)],
-    ['Project Week', 'Project', start(6, 5, 2019), end(10, 5, 2019)],
-    ['Year-End-Project - Indie Studio', 'Indie Studio', start(6, 5, 2019), end(16, 6, 2019)],
-    ['Year-End-Project - Zappy', 'Zappy', start(13, 5, 2019), end(23, 6, 2019)]
+    [ 'B5 - FR - Écrits Professionnels', 'Avocat du diable', start(16, 09, 2019), start(06, 10, 2019) ],
+    [ 'B5 - FR - Écrits Professionnels', '3 emails', start(07, 10, 2019), start(27, 10, 2019) ],
+    [ 'B5 - FR - Écrits Professionnels', 'Mémo professionel', start(28, 10, 2019), start(17, 11, 2019) ],
+    [ 'B5 - FR - Écrits Professionnels', 'Informer: Le magasine du geek', start(11, 11, 2019), start(12, 01, 2020) ],
+
+    [ 'B5 - Advanced C++ - Babel', 'Babel', start(16, 09, 2019), start(06, 10, 2019) ],
+    [ 'B5 - Advanced C++ - Babel', 'BTTF - Babel', start(04, 11, 2019), start(10, 11, 2019) ],
+    [ 'B5 - Advanced C++ - Babel', 'BTTF 2 - Babel', start(16, 12, 2019), start(29, 12, 2019) ],
+
+    [ 'B5 - Advanced C++ - R-Type', 'R-Type', start(04, 11, 2019), start(01, 12, 2019) ],
+    [ 'B5 - Advanced C++ - R-Type', 'BTTF - R-Type', start(16, 12, 2019), start(29, 12, 2019) ],
+
+    [ 'B5 - Advanced C++ - Zia', 'Zia', start(06, 01, 2020), start(01, 03, 2020) ],
+
+    [ 'B5 - AppDev - AREA', 'AREA', start(06, 01, 2020), start(01, 03, 2020) ],
+
+    [ 'B5 - AppDev - Dashboard', 'Dashboard', start(28, 10, 2019), start(17, 11, 2019) ],
+    [ 'B5 - AppDev - Dashboard', 'BTTF - Dashboard', start(16, 12, 2019), start(29, 12, 2019) ],
+
+    [ 'B5 - AppDev - Epicture', 'Epicture', start(30, 09, 2019), start(20, 10, 2019) ],
+    [ 'B5 - AppDev - Epicture', 'BTTF - Epicture', start(04, 11, 2019), start(10, 11, 2019) ],
+    [ 'B5 - AppDev - Epicture', 'BTTF 2 - Epicture', start(16, 12, 2019), start(29, 12, 2019) ],
+
+    [ 'B5 - Artificial Intelligence', 'Gomoku', start(07, 10, 2019), start(27, 10, 2019) ],
+    [ 'B5 - Artificial Intelligence', 'BTTF - Gomoku', start(04, 11, 2019), start(10, 11, 2019) ],
+    [ 'B5 - Artificial Intelligence', 'BTTF 2 - Gomoku', start(16, 12, 2019), start(29, 12, 2019) ],
+
+    [ 'B5 - DevOps', 'Docker Containerization', start(21, 10, 2019), start(03, 11, 2019) ],
+    [ 'B5 - DevOps', 'Automation', start(04, 11, 2019), start(17, 11, 2019) ],
+    [ 'B5 - DevOps', 'Orchestrator', start(18, 11, 2019), start(15, 12, 2019) ],
+
+    [ 'B5 - Functional Prog - dumbXML', 'dumbXML', start(18, 11, 2019), start(05, 01, 2020) ],
+    [ 'B5 - Functional Prog - dumbXML', 'BTTF - dumbXML', start(13, 01, 2020), start(19, 01, 2020) ],
+
+    [ 'B5 - Functional Prog - evalExpr', 'functional evalExpr', start(21, 10, 2019), start(03, 11, 2019) ],
+    [ 'B5 - Functional Prog - evalExpr', 'BTTF - functional evalExpr', start(04, 11, 2019), start(10, 11, 2019) ],
+    [ 'B5 - Functional Prog - evalExpr', 'BTTF 2 - functional evalExpr', start(16, 12, 2019), start(29, 12, 2019) ],
+
+    [ 'B5 - Functional Prog - KOAK', 'KOAK', start(06, 01, 2020), start(01, 03, 2020) ],
+
+    [ 'B5 - Innov. - Moonshot', '#TOGETHER', start(02, 09, 2019), start(03, 09, 2019) ],
+    [ 'B5 - Innov. - Moonshot', '#CLIMATE', start(03, 09, 2019), start(04, 09, 2019) ],
+    [ 'B5 - Innov. - Moonshot', '#LIFE', start(04, 09, 2019), start(05, 09, 2019) ],
+    [ 'B5 - Innov. - Moonshot', '#WORK', start(05, 09, 2019), start(06, 09, 2019) ],
+    [ 'B5 - Innov. - Moonshot', 'Hack\'InTrack', start(07, 09, 2019), start(08, 09, 2019) ],
+    [ 'B5 - Innov. - Moonshot', 'Moonshot Solution', start(09, 09, 2019), start(12, 09, 2019) ],
+
+    [ 'B5 - Mathematics', '301dannon', start(16, 09, 2019), start(29, 09, 2019) ],
+    [ 'B5 - Mathematics', '302separation', start(30, 09, 2019), start(13, 10, 2019) ],
+    [ 'B5 - Mathematics', '303make', start(14, 10, 2019), start(27, 10, 2019) ],
+    [ 'B5 - Mathematics', '304pacman', start(28, 10, 2019), start(10, 11, 2019) ],
+    [ 'B5 - Mathematics', '305construction', start(11, 11, 2019), start(24, 11, 2019) ],
+    [ 'B5 - Mathematics', '306radiator', start(25, 11, 2019), start(22, 12, 2019) ],
+    [ 'B5 - Mathematics', '307multigrains', start(23, 12, 2019), start(12, 01, 2020) ],
+    [ 'B5 - Mathematics', '308reedpipes', start(13, 01, 2020), start(26, 01, 2020) ],
+    [ 'B5 - Mathematics', '309pollution', start(27, 01, 2020), start(09, 02, 2020) ],
+
+    [ 'B5 - Part-Time Job', 'Part-time internship', start(16, 09, 2019), start(08, 03, 2020) ]
   ]);
 
   chart.draw(dataTable, {
