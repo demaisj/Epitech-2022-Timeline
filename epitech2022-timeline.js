@@ -85,7 +85,12 @@ function drawChart() {
     [ 'B5 - Mathematics', '308reedpipes', start(13, 01, 2020), start(26, 01, 2020) ],
     [ 'B5 - Mathematics', '309pollution', start(27, 01, 2020), start(09, 02, 2020) ],
 
-    [ 'B5 - Part-Time Job', 'Part-time internship', start(16, 09, 2019), start(08, 03, 2020) ]
+    [ 'B5 - Part-Time Job', 'Part-time internship', start(16, 09, 2019), start(08, 03, 2020) ],
+
+    [ 'B5 - Security - Cryptography', 'Call For Papers', start(02, 09, 2019), start(29, 09, 2019) ],
+    [ 'B5 - Security - Cryptography', 'CAESAR', start(16, 09, 2019), start(29, 09, 2019) ],
+    [ 'B5 - Security - Cryptography', 'BTTF - CAESAR', start(04, 11, 2019), start(10, 11, 2019) ],
+    [ 'B5 - Security - Cryptography', 'BTTF 2 - CAESAR', start(16, 12, 2019), start(29, 12, 2019) ]
   ]);
 
   chart.draw(dataTable, {
